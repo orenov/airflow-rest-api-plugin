@@ -26,7 +26,7 @@ CLIs this REST API exposes are Defined here: http://airflow.incubator.apache.org
 
 # Location of the REST Endpoint
 # Note: Changing this will only effect where the messages are posted to on the web interface and will not change where the endpoint actually resides
-rest_api_endpoint = "/admin/rest_api/api"
+rest_api_endpoint = "/admin/api/api"
 # Whether to filter the loading messages before sending the response back
 filter_loading_messages_in_cli_response = True  # todo: include this as an argument in the airflow.cfg file
 
